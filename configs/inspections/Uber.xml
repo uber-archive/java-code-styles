@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inspections version="1.0">
+    <option name="myName" value="Uber"/>
+    <option name="myLocal" value="true"/>
+    <inspection_tool class="ConstantConditions" enabled="true" enabled_by_default="true" level="ERROR">
+        <option name="SUGGEST_NULLABLE_ANNOTATIONS" value="true"/>
+        <option name="DONT_REPORT_TRUE_ASSERT_STATEMENTS" value="false"/>
+    </inspection_tool>
+    <inspection_tool class="NullableProblems" enabled="true" enabled_by_default="true" level="ERROR">
+        <option name="REPORT_NULLABLE_METHOD_OVERRIDES_NOTNULL" value="true"/>
+        <option name="REPORT_NOT_ANNOTATED_METHOD_OVERRIDES_NOTNULL" value="true"/>
+        <option name="REPORT_NOTNULL_PARAMETER_OVERRIDES_NULLABLE" value="true"/>
+        <option name="REPORT_NOT_ANNOTATED_PARAMETER_OVERRIDES_NOTNULL" value="true"/>
+        <option name="REPORT_NOT_ANNOTATED_GETTER" value="true"/>
+        <option name="REPORT_NOT_ANNOTATED_SETTER_PARAMETER" value="true"/>
+        <option name="REPORT_ANNOTATION_NOT_PROPAGATED_TO_OVERRIDERS" value="true"/>
+        <option name="REPORT_NULLS_PASSED_TO_NON_ANNOTATED_METHOD" value="true"/>
+    </inspection_tool>
+</inspections>
+
